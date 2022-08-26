@@ -85,7 +85,7 @@
 -- INSERT INTO salespeople VALUES(1007, 'Rifkin', 'Barcelona', 0.15);
 -- INSERT INTO salespeople VALUES(1003, 'Axelrod', 'New York', 0.10);
 
---SELECT * FROM salespeople;
+--SELECT snum,sname,city,comm FROM salespeople;
 
 --CREATE TABLE customers(cnum int, cname varchar(10), city varchar(10), rating int, snum int);
 
@@ -97,7 +97,7 @@
 -- INSERT INTO customers VALUES(2008, 'Cisneros', 'San Jose', 300, 1007);
 -- INSERT INTO customers VALUES(2007, 'Pereira', 'Rome', 100, 1004);
 
--- SELECT * FROM customers;
+-- SELECT cnum, cname, city, rating, snum FROM customers;
 
 -- CREATE TABLE orders(onum int, amt decimal(7,2), odate date, cnum int, snum int);
 
@@ -112,12 +112,12 @@
 -- INSERT INTO orders VALUES(3010,309.95,'1990-10-04',2004, 1002);
 -- INSERT INTO orders VALUES(3011,9891.88,'1990-10-04',2006, 1001);
 
--- SELECT * FROM orders;
+-- SELECT onum, amt, odate, cnum, snum FROM orders;
 
 -- Write a query that produces all rows from the Customers table for which the salesperson’s number
 --is 1001
 
---SELECT * FROM customers where snum = 1001;
+--SELECT cnum, cname, city, rating, snum FROM customers where snum = 1001;
 
 --Write a select command that produces the rating followed by the name of each customer in San
 --Jose
@@ -126,24 +126,24 @@
 
 --Write a query that will give you all orders for more than Rs. 1,000
 
---SELECT * FROM orders WHERE amt > 1000;
+--SELECT onum, amt, odate, cnum, snum FROM orders WHERE amt > 1000;
 
 --Write a query that will give you the names and cities of all salespeople in London with a
 --commission above 0.10
 
---SELECT sname,city FROM salespeople WHERE comm > 0.10;
+--SELECT sname,city FROM salespeople WHERE comm > 0.10 and city = 'London';
 
 --Write a query on the Customers table whose output will exclude all customers with a rating <=
 --100, unless they are located in Rome
 
---SELECT cname,city = 'Rome',rating FROM customers WHERE rating <= 100;
+--SELECT cname,city = 'Rome',rating FROM customers WHERE rating <= 100 city = 'Rome';
 
 --What will be the output from the following query? Select * from Orders
 --where (amt < 1000 OR
 --NOT (odate = ‘1990-10-03’
 --AND cnum > 2003));
 
---Select * from Orders
+--Select onum, amt, odate, cnum, snum from Orders
 --where (amt < 1000 OR
 --NOT (odate = '1990-10-03'
 --AND cnum > 2003));
@@ -159,10 +159,10 @@
 --8 3011	9891.88	1990-10-04	2006 1001
 
 --What will be the output of the following query?
---Select * from Orders
+--Select onum, amt, odate, cnum, snum from Orders
 --where NOT ((odate = ‘1990-10-03’ OR snum >1006) AND amt >= 1500)
 
---SELECT * FROM Orders
+--SELECT onum, amt, odate, cnum, snum FROM Orders
 --WHERE NOT((odate = '1990-10-03' OR snum >1006) AND amt >= 1500);
 
 --onum     amt     odate      cnum  snum 
@@ -177,7 +177,7 @@
 
 --Write a query that selects all orders except those with zeroes or NULLs in the amt field.
 
---SELECT * FROM orders WHERE (amt != 0) and (amt is not NULL); 
+--SELECT onum, amt, odate, cnum, snum FROM orders WHERE (amt != 0) and (amt is not NULL); 
 
 								---Assignment 4---
 
@@ -416,7 +416,8 @@ USE hr_DB;
 	FROM employees;
 
 --Write a query to get all employee details from the employee table order by first name, descending.
-SELECT * FROM employees ORDER BY first_name DESC;
+SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID 
+FROM employees ORDER BY first_name DESC;
 
 --Write a query to get the employee ID, names (first_name, last_name), salary in ascending order of
 --salary.
@@ -438,11 +439,12 @@ SELECT FIRST_NAME,SALARY,COMMISSION_PCT,HIRE_DATE FROM employees WHERE SALARY < 
 SELECT FIRST_NAME, LAST_NAME FROM employees WHERE FIRST_NAME LIKE 'S%' OR LAST_NAME LIKE '%S';
 
 --Display details of jobs in the descending order of the title.
-SELECT * FROM jobs ORDER BY JOB_TITLE DESC;
+SELECT onum, amt, odate, cnum, snum FROM jobs ORDER BY JOB_TITLE DESC;
 
 --Display details of the employees where commission percentage is null and salary in the range 5000
 --to 10000 and department is 30.
-SELECT * FROM employees WHERE COMMISSION_PCT = 0 AND (SALARY BETWEEN 5000 AND 10000) AND DEPARTMENT_ID = 30;
+SELECT EMPLOYEE_ID,FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID 
+FROM employees WHERE COMMISSION_PCT = 0 AND (SALARY BETWEEN 5000 AND 10000) AND DEPARTMENT_ID = 30;
 
 --Display employees first_name,email who are working in “Executive” department.
 SELECT e.FIRST_NAME, e.EMAIL, e.DEPARTMENT_ID, d.DEPARTMENT_ID, d.DEPARTMENT_NAME as Basic_Info FROM employees e full 
@@ -452,7 +454,8 @@ outer join departments d on e.DEPARTMENT_ID=d.DEPARTMENT_ID WHERE DEPARTMENT_NAM
 SELECT DISTINCT(COUNTRY_ID) FROM locations;
 
 --Display all employees whose have job_id IT_PROG and FI_ACCOUNT.
-SELECT * FROM employees WHERE JOB_ID = 'IT_PROG' OR JOB_ID = 'FI_ACCOUNT';
+SELECT EMPLOYEE_ID,FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID
+FROM employees WHERE JOB_ID = 'IT_PROG' OR JOB_ID = 'FI_ACCOUNT';
 
 --Display all countries in ascending order.
 SELECT COUNTRY_NAME FROM countries ORDER BY COUNTRY_NAME ASC;
