@@ -122,6 +122,10 @@
 --Write a select command that produces the rating followed by the name of each customer in San
 --Jose
 
+--Write a query that will produce the snum values of all salespeople from the Orders table (with the
+--duplicate values suppressed)
+SELECT distinct(snum) FROM orders;
+
 --select rating,cname FROM customers where city='san jose';
 
 --Write a query that will give you all orders for more than Rs. 1,000
@@ -136,7 +140,7 @@
 --Write a query on the Customers table whose output will exclude all customers with a rating <=
 --100, unless they are located in Rome
 
---SELECT cname,city = 'Rome',rating FROM customers WHERE rating <= 100 city = 'Rome';
+--SELECT cnum, cname, city, rating, snum FROM customers WHERE NOT(rating <= 100 OR city = 'Rome');
 
 --What will be the output from the following query? Select * from Orders
 --where (amt < 1000 OR
@@ -412,8 +416,8 @@ USE hr_DB;
  ('3', 'Asia'),
  ('4', 'Middle East and Africa');
 
---Write a query to get unique department ID from employee table.SELECT DISTINCT department_id 
-	FROM employees;
+--Write a query to get unique department ID from employee table.
+--SELECT DISTINCT department_id FROM employees;
 
 --Write a query to get all employee details from the employee table order by first name, descending.
 SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID 

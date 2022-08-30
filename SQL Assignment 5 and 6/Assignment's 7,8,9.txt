@@ -22,8 +22,8 @@
 
 --Write a query that produces all pairs of salespeople who are living in the same city.Exclude
 --combinations of salespeople with themselves as well as duplicate rows with the order reversed
---SELECT m.sname,n.sname,m.city FROM salespeople m,
---salespeople n WHERE m.city = n.city and m.sname < n.sname;
+SELECT distinct s1.sname, s1.city, s2.sname FROM salespeople s1, salespeople s2 
+WHERE s1.city= s2.city AND s1.sname != s2.sname;
 
 										---Assignment 8---
 							--To solve below queries use "sales" database
