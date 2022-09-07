@@ -1,0 +1,84 @@
+
+					---Assignment 5---
+----To solve below queries use "hr" database.
+
+----Display first name and last name after converting the first letter of each name to upper case and
+----the rest to lower case.
+
+----SELECT UPPER(LEFT(FIRST_NAME,1))+LOWER(SUBSTRING(FIRST_NAME,2,LEN(FIRST_NAME))),
+----    UPPER(LEFT(LAST_NAME,1))+LOWER(SUBSTRING(LAST_NAME,2,LEN(LAST_NAME)))
+----FROM employees;
+
+----Display the first word in job title.
+----SELECT (upper(substring(JOB_ID,1,1))+LOWER(SUBSTRING(JOB_ID,2,LEN(JOB_ID)))) AS TITLE FROM JOB_HISTORY;
+
+----Display the length of first name for employees where last name contain character ‘b’ after 3rd
+----position.
+----SELECT LEN(FIRST_NAME) AS FIRST_NAME_LENGTH 
+----FROM employees WHERE LAST_NAME LIKE '___%b%';
+
+----Display first name in upper case and email address in lower case for employees where the first
+----name and email address are same irrespective of the case.
+----SELECT upper(first_name), lower(email) FROM employees
+----WHERE lower(first_name) = lower(email);
+
+----Display first name, salary, and round the salary to thousands.
+----SELECT first_name, ceiling(salary/1000)*1000
+----from employees;
+
+----Display employee ID and the date on which he ended his previous job.
+----SELECT employee_id, MAX(end_date) FROM job_history GROUP BY employee_id; 
+
+----Display first name and date of first salary of the employees.
+----SELECT FIRST_NAME, HIRE_DATE AS Date_of_first_salary FROM employees;
+
+----Display first name and experience of the employees.
+----SELECT j.EMPLOYEE_ID,e.FIRST_NAME,DATEDIFF(YY,j.START_DATE,j.END_DATE) AS Experience_of_EMP FROM job_history j INNER JOIN employees e
+----ON j.EMPLOYEE_ID = e.EMPLOYEE_ID
+
+----Display first name of employees who joined in 2001.
+----SELECT EMPLOYEE_ID,START_DATE,END_DATE,JOB_ID,DEPARTMENT_ID FROM job_history
+----SELECT FIRST_NAME FROM employees WHERE HIRE_DATE BETWEEN '2001-01-01'AND '2001-12-31'
+
+----Display employees who joined in the current year.
+----SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,JOB_ID,SALARY,COMMISSION_PCT,MANAGER_ID,DEPARTMENT_ID 
+----FROM employees WHERE datepart(yy,HIRE_DATE) = datepart(yy,GETDATE());
+
+----Display the number of days between system date and 1st January 2011.
+----SELECT datediff(dd,'2011-01-01',GETDATE() ) AS No_days;
+
+----Display number of employees joined after 15th of the month.
+----SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,JOB_ID,SALARY,COMMISSION_PCT,MANAGER_ID,DEPARTMENT_ID  
+----FROM employees WHERE datepart(dd, Hire_date) >= 15;
+
+----Display third highest salary of employees.
+----SELECT MIN(salary) AS Third_max_salary FROM employees
+----WHERE SALARY in (SELECT  TOP(3) SALARY FROM employees ORDER BY salary DESC);
+
+--                            ---Assignment 6---
+--                 --To solve below queries use “sales” database
+--USE sales_db;
+
+----Write a query that counts the number of salespeople registering orders for each day. (If a
+----salesperson has more than one order on a given day, he or she should be counted only once.).
+--SELECT odate,COUNT(distinct snum) AS total FROM orders GROUP BY odate;
+
+----Query 2 - Write a query on the Customers table that will find the highest rating in each city.
+----Put the output in this form: F or the city (city), the highest rating is : (rating)
+--SELECT DISTINCT(city),MAX(rating) FROM customers GROUP BY city;
+
+----Query 3 - Write a query that totals the orders for each day and places the results in descending order.
+--SELECT COUNT(onum) AS 'Total Orders', odate FROM orders GROUP BY odate ORDER BY COUNT(onum) DESC;
+
+----Query 4 - Write a query that selects the total amount in orders for each salesperson
+----for whom this total is greater than the amount of the largest order in the table.
+--SELECT snum, SUM(amt) AS 'Total Amount' FROM orders GROUP BY snum HAVING SUM(amt) > MAX(amt);
+
+----Query 5 - Write a query that selects the highest rating in each city.
+--SELECT city, max(rating) AS 'highest_rating' FROM customers GROUP BY city;
+
+----Query 6 - Largest order taken by each salesperson with order value more than Rs.3000.
+--SELECT o.odate, o.snum, MAX(amt) AS 'Largest Order' FROM orders o WHERE o.amt > 3000 GROUP BY odate,snum;
+
+----7. Select each customer smallest order
+--SELECT cnum, MIN(amt) AS 'Smallest Order' FROM orders GROUP BY cnum;
