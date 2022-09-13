@@ -1,0 +1,30 @@
+		---Assigment 1---
+--create 'student_db' database
+--create following tables in database with proper data types
+--student: id (PK), name, address, phone, email, age, schoolId (FK)
+--school: id (PK), name, address, principal, phone
+--create relationship as shown in the table schema
+--add some dummy data
+
+--CREATE DATABASE student_DB;
+
+--USE student_DB;
+
+--CREATE TABLE school(
+--	id INTEGER PRIMARY KEY,
+--	name VARCHAR(20) NOT NULL,
+--	address VARCHAR(30) NOT NULL,
+--	principle VARCHAR(20) NOT NULL,
+--	phone bigint NOT NULL UNIQUE
+--);
+
+--CREATE TABLE student(
+--	id INTEGER PRIMARY KEY,
+--	name VARCHAR(20) NOT NULL,
+--	address VARCHAR(30) NOT NULL,
+--	phone bigint UNIQUE NOT NULL,
+--	email VARCHAR(20) UNIQUE NOT NULL,
+--	age INTEGER NOT NULL,
+--	FOREIGN KEY(id) references school(id)
+
+--);
