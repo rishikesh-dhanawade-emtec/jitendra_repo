@@ -71,7 +71,8 @@
 // ------------------------------Solution----------------------------------
 
 // function calcAge(years){
-//     let getAge = years * 365;
+//     let leapDays = (years / 4)
+//     let getAge = (years * 365) + leapDays;
 //     return getAge;
 // }
 // console.log(`Age 65 years = ${calcAge(65)} days`)
