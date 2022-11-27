@@ -1,0 +1,10 @@
+﻿*** Dfference between .NET Core and .NET Framework desktop application. ***
+
+1:- .NET Framework Application Model includes WinForms, ASP.NET, and WPF, used for developing desktop and web apps, 
+	   .NET Core does not support desktop application development, focusing instead on the web, windows mobile, 
+	     and windows store with ASP.NET and Windows universal apps.
+
+2:- .NET Framework includes the developer tools, languages, and libraries needed to develop Windows applications,
+	  .NET Core is a complete rewrite intended to make it a more flexible, cross-platform, modular approach to application development.
+
+3:- NET Core Apps end users can run locally using Chrome's leading and consistent rendering engine within a Windows Desktop Application.
