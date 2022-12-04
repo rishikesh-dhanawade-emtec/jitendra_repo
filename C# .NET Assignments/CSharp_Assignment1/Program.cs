@@ -106,7 +106,7 @@ namespace Assignment
         public void displaySubString(string a)
         {
             char[] ArrayA = (a).ToCharArray();
-            String subString = new String(ArrayA, 0, 5); // 2 is Starting Index and 5 is the further length
+            String subString = new String(ArrayA, 0, 5); // 0 is Starting Index and 5 is the further length
             Console.Write(subString);
         }
 
@@ -343,9 +343,9 @@ namespace Assignment
     {
         static void Main()
         {
-            string? a = "Atik";
-            string? a1 = "Atik";
-            string? b = "Shaikh";
+            string? a = "Jitendra";
+            string? a1 = a;
+            string? b = "Patil";
             string? demo = "I am trying to love C#";
             
             firstqUsingInbuilt one_a = new firstqUsingInbuilt();
@@ -361,14 +361,14 @@ namespace Assignment
             //one_b.displayReverse(demo);
 
             secondq two = new secondq();
-            //two.validateEmail("atik.shaikh@emtecinc.com");
-            //two.validateEmail("atik.shaikh------------emtecinc.com");
+            two.validateEmail("jitendra.patil@emtecinc.com");
+            two.validateEmail("jitendra.patil------------emtecinc.com");
 
             thirdq three = new thirdq();
             //three.enumDemo();
 
             // Instantiating Class and calling constructor as well at the same time !
-            fourthq.BankAccount four = new fourthq.BankAccount(2069, "Atik Shaikh", "CST, Mumbai-400001",
+            fourthq.BankAccount four = new fourthq.BankAccount(2069, "jitendra patil", "CST, Mumbai-400001",
                                                                 "Savings", 5.6m, 0, 0, 2500);
             //four.displayDetails("Current");
             fourthq.Account obj = new fourthq.Account(); // Implemented Interface using this !

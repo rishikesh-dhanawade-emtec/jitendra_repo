@@ -147,8 +147,8 @@ public class fifthQuestion
             {
              new Employee {id=101,   name="Amit  "    , salary=4000,department="ABC"},
              new Employee {id=102,   name="Gautam"    , salary=6000,department="XYZ"},
-             new Employee {id=103,   name="Salman"    , salary=3000,department="ABC"},
-             new Employee {id=104,   name="Ram   "    , salary=2000,department="XYZ"},
+             new Employee {id=103,   name="Rushi"    , salary=3000,department="ABC"},
+             new Employee {id=104,   name="vishal   "    , salary=2000,department="XYZ"},
              new Employee {id=105,   name="Shyam "    , salary=7000,department="ABC"},
              new Employee {id=106,   name="Kishor"    , salary=5000,department="XYZ"},
             };
@@ -188,13 +188,13 @@ public class sixthQuestion
     public void displayAnswer()
     {
         studentMarks<string,string,int> student1 = new studentMarks<string, string, int>();
-        student1.sname = "Atik";
+        student1.sname = "Jitendra";
         student1.subject = "Computer Science";
         student1.marks = 99;
         student1.displayMarks(student1.sname, student1.subject, student1.marks);
 
         studentMarks<string, string, int> student2 = new studentMarks<string, string, int>();
-        student2.displayMarks("Abdullah", "Machine Learning", 95);
+        student2.displayMarks("Hemesh", "Machine Learning", 95);
     }
 }
 
@@ -202,8 +202,8 @@ class Program {
     public static void Main()
     {
         firstQuestion firstQ = new firstQuestion();
-        //firstQ.validateEmail("atik.shaikh@emtecinc.com");
-        //firstQ.validateEmail("atik.shaikh------------emtecinc.com");
+        //firstQ.validateEmail("Jitendra.Patil@emtecinc.com");
+        //firstQ.validateEmail("Jitendra.Patil------------emtecinc.com");
 
         secondQuestion secondQ = new secondQuestion();
         //secondQ.displayExceptions();

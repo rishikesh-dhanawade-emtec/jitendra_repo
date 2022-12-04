@@ -28,3 +28,18 @@ C:\Users\atik.shaikh\source\repos\CSharp_Assignment1\obj\Debug\net6.0\refint\CSh
 C:\Users\atik.shaikh\source\repos\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.pdb
 C:\Users\atik.shaikh\source\repos\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.genruntimeconfig.cache
 C:\Users\atik.shaikh\source\repos\CSharp_Assignment1\obj\Debug\net6.0\ref\CSharp_Assignment.dll
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\bin\Debug\net6.0\CSharp_Assignment.exe
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\bin\Debug\net6.0\CSharp_Assignment.deps.json
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\bin\Debug\net6.0\CSharp_Assignment.runtimeconfig.json
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\bin\Debug\net6.0\CSharp_Assignment.dll
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\bin\Debug\net6.0\CSharp_Assignment.pdb
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.csproj.AssemblyReference.cache
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.AssemblyInfoInputs.cache
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.AssemblyInfo.cs
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.csproj.CoreCompileInputs.cache
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.dll
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\refint\CSharp_Assignment.dll
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.pdb
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\CSharp_Assignment.genruntimeconfig.cache
+C:\jitendra_repo\C# .NET Assignments\CSharp_Assignment1\obj\Debug\net6.0\ref\CSharp_Assignment.dll
