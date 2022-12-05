@@ -1,0 +1,13 @@
+﻿Difference Between .NET Core and .NET Framework
+
+1:- NET Core is written from scratch to make it a modular, lightweight, fast, and cross-platform Framework Whereas, 
+	Microsoft's Net Framework is a software development platform for building and running Windows applications.
+
+2:- .Net Core is an open source,
+	Certain components of the .Net Framework are open source.
+
+3:- .NET Core offers high performance and scalability,
+	  .Net Framework is less effective in comparison to .Net Core in terms of performance and scalability of applications.
+
+4:- .NET Core does not have features like Code Access Security,
+	 Code access security feature is present in .NET Framework.

@@ -1,0 +1,8 @@
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\bin\Debug\Calci.exe.config
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\bin\Debug\Calci.exe
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\bin\Debug\Calci.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\obj\Debug\Calci.csproj.AssemblyReference.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\obj\Debug\Calci.csproj.SuggestedBindingRedirects.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\obj\Debug\Calci.csproj.CoreCompileInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\obj\Debug\Calci.exe
+C:\Users\jitendra.patil\Desktop\C# .NET\Calci\obj\Debug\Calci.pdb

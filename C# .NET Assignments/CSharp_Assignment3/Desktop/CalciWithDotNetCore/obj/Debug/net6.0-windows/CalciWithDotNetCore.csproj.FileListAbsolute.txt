@@ -1,0 +1,17 @@
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\bin\Debug\net6.0-windows\CalciWithDotNetCore.exe
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\bin\Debug\net6.0-windows\CalciWithDotNetCore.deps.json
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\bin\Debug\net6.0-windows\CalciWithDotNetCore.runtimeconfig.json
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\bin\Debug\net6.0-windows\CalciWithDotNetCore.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\bin\Debug\net6.0-windows\CalciWithDotNetCore.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.csproj.AssemblyReference.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.Form1.resources
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.csproj.GenerateResource.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.AssemblyInfoInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.AssemblyInfo.cs
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\refint\CalciWithDotNetCore.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\CalciWithDotNetCore.genruntimeconfig.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\Desktop\CalciWithDotNetCore\obj\Debug\net6.0-windows\ref\CalciWithDotNetCore.dll

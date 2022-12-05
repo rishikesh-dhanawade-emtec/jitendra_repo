@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f4GrQ+lGtov3A9QPGzpDs6564s2513cZ6/7q+GEU058bxnKwSn42NFSK7KCw9i3yOJd0F8j+SsSA3F/rgHPULA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jitendra.patil\\Desktop\\C# .NET\\minimalWebApi\\minimalWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jitendra.patil\\.nuget\\packages\\nugetpackagelibrary\\1.0.0\\nugetpackagelibrary.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

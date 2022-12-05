@@ -1,0 +1,12 @@
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\bin\Debug\net6.0\ArithmeticOperation.deps.json
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\bin\Debug\net6.0\ArithmeticOperation.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\bin\Debug\net6.0\ArithmeticOperation.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.csproj.AssemblyReference.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.AssemblyInfoInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.AssemblyInfo.cs
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.csproj.CoreCompileInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\refint\ArithmeticOperation.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ArithmeticOperation.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\ArithmeticOperation\obj\Debug\net6.0\ref\ArithmeticOperation.dll

@@ -1,0 +1,12 @@
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\bin\Debug\net6.0\NugetPackageLibrary.deps.json
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\bin\Debug\net6.0\NugetPackageLibrary.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\bin\Debug\net6.0\NugetPackageLibrary.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.csproj.AssemblyReference.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.AssemblyInfoInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.AssemblyInfo.cs
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\refint\NugetPackageLibrary.dll
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\NugetPackageLibrary.pdb
+C:\Users\jitendra.patil\Desktop\C# .NET\NugetPackageLibrary\obj\Debug\net6.0\ref\NugetPackageLibrary.dll

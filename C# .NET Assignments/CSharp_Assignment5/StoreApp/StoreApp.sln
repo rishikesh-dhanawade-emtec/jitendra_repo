@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp", "StoreApp.csproj", "{6DF48C9D-83ED-4108-ACBB-E106EA9AB1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp.Tests", "..\StoreApp.Tests\StoreApp.Tests.csproj", "{0696B936-B29D-4B6E-8F19-3FFBF2CA3030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF48C9D-83ED-4108-ACBB-E106EA9AB1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF48C9D-83ED-4108-ACBB-E106EA9AB1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF48C9D-83ED-4108-ACBB-E106EA9AB1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF48C9D-83ED-4108-ACBB-E106EA9AB1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0696B936-B29D-4B6E-8F19-3FFBF2CA3030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0696B936-B29D-4B6E-8F19-3FFBF2CA3030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0696B936-B29D-4B6E-8F19-3FFBF2CA3030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0696B936-B29D-4B6E-8F19-3FFBF2CA3030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50C9705-36D7-4170-8D7A-523E09EBD1A9}
+	EndGlobalSection
+EndGlobal
